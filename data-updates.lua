@@ -1,6 +1,29 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
+<<<<<<< HEAD
+=======
+for _, recipe in pairs(data.raw.recipe) do
+    local r = RECIPE(recipe)
+    r:replace_ingredient('basic-circuit-board', 'pcb1')
+    r:replace_ingredient('circuit-board', 'pcb2')
+    r:replace_ingredient('superior-circuit-board', 'pcb3')
+    r:replace_ingredient('multi-layer-circuit-board', 'pcb4')
+    r:replace_ingredient('fibreglass-board', 'fiberglass')
+    r:replace_ingredient('phenolic-board', 'phenolicboard')
+    r:replace_ingredient('ferric-chloride-solution', 'boric-acid')
+    r:replace_ingredient('basic-electronic-components', 'resistor2')
+    r:replace_ingredient('electronic-components', 'transistor')
+    r:replace_ingredient('intergrated-electronics', 'microchip')
+    r:replace_ingredient('processing-electronics', 'kondo-processor')
+    r:replace_ingredient('advanced-processing-unit', 'intelligent-unit')
+    r:replace_ingredient('silicon-nitride', 'cermet')
+    r:replace_ingredient('module-processor-board', 'pcb2')
+    r:replace_ingredient('module-processor-board-2', 'pcb3')
+    r:replace_ingredient('module-processor-board-3', 'pcb4')
+end
+
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
 RECIPE('rich-re'):remove_unlock('coal-processing-2')
 RECIPE('eva-ree-dust'):remove_unlock('coal-processing-2')
 --RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
@@ -63,7 +86,11 @@ RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock(
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
+<<<<<<< HEAD
 RECIPE('kmauts-ration'):remove_ingredient("organics"):add_ingredient({type = "item", name = "skin", amount = 25})
+=======
+RECIPE('kmauts-ration'):replace_ingredient('organics', 'skin')
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
 RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard')
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
