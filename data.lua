@@ -75,8 +75,11 @@ require("prototypes/buildings/particle-accelerator-mk01")
 require("prototypes/buildings/particle-accelerator-mk02")
 require("prototypes/buildings/particle-accelerator-mk03")
 require("prototypes/buildings/particle-accelerator-mk04")
+<<<<<<< HEAD
 
 require("prototypes/buildings/ht-locomotive/ht-locomotive")
+=======
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
 --[[
 require("prototypes/buildings/clay-pit-mk02")
 require("prototypes/buildings/moondrop-greenhouse-mk02")

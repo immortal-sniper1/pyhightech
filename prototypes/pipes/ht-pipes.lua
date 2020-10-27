@@ -78,14 +78,22 @@ local function py_pipepictures()
             width = 128,
             height = 128,
             scale = 0.5
+<<<<<<< HEAD
         },
+=======
+         },
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         t_right = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-t-right.png",
             priority = "extra-high",
             width = 128,
             height = 128,
             scale = 0.5
+<<<<<<< HEAD
         },
+=======
+          },
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         t_left = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-t-left.png",
             priority = "extra-high",
@@ -132,45 +140,76 @@ local function py_pipepictures()
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         vertical_window_background = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         fluid_background = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         low_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         middle_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         high_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
+=======
+            height = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
         },
         gas_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
+<<<<<<< HEAD
             height = 32
         }
     }
+=======
+            height = 32,
+        },
+    }
+
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
 end
 
 local function py_pipecoverspictures()
@@ -183,7 +222,11 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
+<<<<<<< HEAD
                 }
+=======
+                },
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
             }
         },
         east = {
@@ -194,7 +237,11 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
+<<<<<<< HEAD
                 }
+=======
+                },
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
             }
         },
         south = {
@@ -205,7 +252,11 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
+<<<<<<< HEAD
                 }
+=======
+                },
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
             }
         },
         west = {
@@ -216,10 +267,18 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
+<<<<<<< HEAD
                 }
             }
         }
     }
+=======
+                    }
+                },
+            }
+        }
+
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
 end
 
 --NIOBIUM PIPES
@@ -230,7 +289,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {"copper-plate", 1},
+<<<<<<< HEAD
         {"plastic-bar", 1}
+=======
+        {"plastic-bar", 1},
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     },
     results = {
         {"ht-pipes", 3}
@@ -256,7 +319,11 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
+<<<<<<< HEAD
         {"ht-pipes", 10}
+=======
+        {"ht-pipes", 10},
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     },
     results = {
         {"ht-pipes-to-ground", 2}
@@ -281,10 +348,14 @@ ENTITY {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes.png",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
+<<<<<<< HEAD
     minable = {
         mining_time = 0.1,
         result = "ht-pipes"
     },
+=======
+    minable = {hardness = 0.3, mining_time = 0.1, result = "ht-pipes"},
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     max_health = 100,
     corpse = "small-remnants",
     resistances = {
@@ -330,10 +401,14 @@ ENTITY {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes-to-ground.png",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
+<<<<<<< HEAD
     minable = {
         mining_time = 0.1,
         result = "ht-pipes-to-ground"
     },
+=======
+    minable = {hardness = 0.3, mining_time = 0.1, result = "ht-pipes-to-ground"},
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     max_health = 100,
     corpse = "small-remnants",
     resistances = {

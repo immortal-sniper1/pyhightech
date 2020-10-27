@@ -3500,6 +3500,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'acetone', amount = 50}
     }
+<<<<<<< HEAD
 }:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 100}):change_category("wet-scrubber")
 
 RECIPE {
@@ -3521,3 +3522,6 @@ RECIPE {
     subgroup = "py-items",
     order = "j"
 }:add_unlock("coal-processing-1")
+=======
+}:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 100}):change_category("wet-scrubber")
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555

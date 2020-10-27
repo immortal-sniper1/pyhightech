@@ -47,7 +47,11 @@ ENTITY {
     module_specification = {
         module_slots = 1
     },
+<<<<<<< HEAD
     allowed_effects = {"consumption", "speed", "pollution"},
+=======
+    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     crafting_categories = {"quantum"},
     crafting_speed = 1,
     energy_source = {
@@ -56,6 +60,10 @@ ENTITY {
         emissions_per_minute = 0.06,
     },
     energy_usage = "1000kW",
+<<<<<<< HEAD
+=======
+    ingredient_count = 20,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     animation = {
         layers = {
             {

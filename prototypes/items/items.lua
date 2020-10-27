@@ -287,7 +287,11 @@ ITEM {
     type = "item",
     name = "transistor",
     icon = "__pyhightechgraphics__/graphics/icons/transistor.png",
+<<<<<<< HEAD
 	icon_size = 64,
+=======
+	icon_size = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
@@ -657,7 +661,11 @@ ITEM {
     type = "item",
     name = "processing-unit",
     icon = "__pyhightechgraphics__/graphics/icons/circuit-board-3.png",
+<<<<<<< HEAD
 	icon_size = 64,
+=======
+	icon_size = 32,
+>>>>>>> 72a437e6684fa82c7a4fd21f92329730695cb555
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "a",
